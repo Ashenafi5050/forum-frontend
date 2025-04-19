@@ -1,0 +1,40 @@
+.container {
+  padding: 40px;
+  background-color: var(--bg-color);
+  min-height: 100vh; /* Ensure full viewport height */
+    color: var(--non-default-color);
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.content h1 {
+  color: var(--text-color);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: var(--bg-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 5px var(--box-shadow);
+}
+
+.section h2 {
+  color: var(--non-default-color);
+  margin-bottom: 15px;
+}
+
+.section p {
+  line-height: 1.6;
+}
+
+.content p {
+  line-height: 1.6;
+  margin-top: 20px;
+}
